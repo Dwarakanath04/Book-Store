@@ -134,7 +134,6 @@ npm run test:e2e
 npm run test:coverage
 ```
 
-See [docs/TESTING.md](docs/TESTING.md) for detailed testing documentation.
 
 ## 🐳 Docker Deployment
 
@@ -150,12 +149,6 @@ docker-compose up --build
 docker build -t world-of-books .
 docker run -p 3000:3000 world-of-books
 ```
-
-## 📚 Documentation
-
-- [Database Schema](docs/DATABASE_SCHEMA.md) - Data models and relationships
-- [API Documentation](docs/API_DOCUMENTATION.md) - Component APIs and functions
-- [Testing Guide](docs/TESTING.md) - Testing strategy and examples
 
 ## 🔄 CI/CD Pipeline
 
